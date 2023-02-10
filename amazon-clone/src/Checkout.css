@@ -1,0 +1,17 @@
+.checkout{
+    display: flex;
+    padding: 20px;
+    background-color: white;
+    height: max-content;
+    /* max content will not allow wrap which is need since the is a left and right side div   */
+
+}
+.checkout_ad{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.checkout_title {
+    margin-right: 10px;
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+}

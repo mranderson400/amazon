@@ -1,0 +1,68 @@
+.header{
+    height: 60px;
+    /* width: 100px; */
+    display: flex;
+    align-items: center;
+    background-color: #131921;
+    background-image:url("https://m.media-amazon.com/images/G/01/gc/designs/livepreview/amazon_dkblue_noto_email_v2016_us-main._CB468775337_.png");
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.header_searchInput{
+    padding: 10px 6px 0px 750px;
+}
+.header_logo {
+    display: flex;
+    align-items: center;
+    width: 60px;
+    /* height: 100px; */
+    object-fit: contain; 
+    margin: 0 35px;
+    margin-top: 18px;
+
+}
+.header_optionBasket{
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.header_BasketCount{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.header_search{
+    /* position: absolute;
+    top: 0;
+    left: 500px; */
+    display: flex;
+    flex: 6;
+    align-items: center;
+    border-radius: 24px;
+}
+.header_optionLineOne{
+    font-size: 10px;
+}
+.header_optionLineTwo{
+    font-size: 14px;
+    font-weight: 800px;
+}
+.header_nav{
+    display: flex;
+    justify-content: space-evenly 
+}
+.header_searchIcon{
+    padding: 3px;
+    height: 22px;
+    background-color: #cd9042;
+    width: 25px;
+    height: 25px;
+}
+.header_option{
+    display: flex;
+    flex-direction: column;
+    margin-left: 45px;
+    margin-right: 35px;
+    color: white
+
+}
